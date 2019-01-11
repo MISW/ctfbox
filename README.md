@@ -59,3 +59,11 @@ vagrant destroy
 You can use `share` directory to share some files with VM.
 
 It's mounted as `/share` in VM.
+
+## Contributing
+
+Contribution (feature request or bug reporting) is welcome ;)
+
+1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device.
+1. Make some changes
+1. Create pull request
