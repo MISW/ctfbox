@@ -7,6 +7,5 @@ LANG=ja_JP.UTF-8
 LC_ALL=ja_JP.UTF-8
 HEREDOC
 
-yum update -y
-yum install -y wget unzip
-
+sudo perl -p -i.bak -e 's%https?://(?!security)[^ \t]+%http://jp.archive.ubuntu.com/ubuntu/%g' /etc/apt/sources.list # change apt repository to jp mirror
+apt update && apt upgrade -y
