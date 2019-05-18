@@ -25,7 +25,7 @@ If you don't have homebrew yet,
 
 ```
 brew cask install virtualbox
-brew install vagrant
+brew cask install vagrant
 ```
 
 ## Building VM
